@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>Letterize.js</title>
+	<style>
+	    .line_split .line1{
+          color: #453d24;
+          animation: colorAnim1 1s 2s forwards infinite;
+        }
+        .line_split .line2{
+          color: #dcd08f;
+          animation: colorAnim2 2s 3s forwards infinite;
+        }
+        .line_split .line3{
+          color: #00f;
+          animation: colorAnim1 2s 4s forwards infinite;
+        }
+        
+        @keyframes colorAnim1{
+          0%{
+            color: #b4787e;
+          }
+          100%{
+            color: #d7575c;
+          }
+        }
+        @keyframes colorAnim2{
+          0%{
+            color: #97bf83;
+          }
+          100%{
+            color: #e2be4e;
+          }
+        }
+	</style>
+	
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+    
+    <div>  
+      <p class="line_split">Yayyyyyy!! you<br/> ready to<br/> Letterize!</p>
+    </div>
+ 
+    <script type="text/javascript" src="letterize.js"></script>
+    <script type="text/javascript">
+        letterize(".line_split", "lines", "span");
+    </script>
+</body>
+</html>

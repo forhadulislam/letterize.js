@@ -1,0 +1,1 @@
+## Letterize.js, a lightweight Javascript library for Web Typography
