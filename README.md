@@ -1,4 +1,4 @@
-## Letterize.js, a lightweight Javascript library for Web Typography
+## Letterize.js is a lightweight Javascript library for Typography
 letterize.js is a lightweight and pure JavaScript library for manipulating characters and words. It is written in pure JavaScript
 and has no dependency at all which makes it a perfect choice for designers and developers.
 
